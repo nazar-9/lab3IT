@@ -5,7 +5,7 @@ n = int(input("Введіть кількість чисел: "))
 total = 0
 
 for i in range(n):
-    number = float(input(f"Введіть число {i + 1}: "))
+    number = float(input(f"Введіть число {i + 8}: "))
     total += number
 
 print(f"Сума введених чисел: {total}")
